@@ -1,1 +1,16 @@
 Archivo de bienvenida
+
+Agrega los cambios al stage
+    git add .
+
+Agregar commit al stage
+    git commit -m "Primer commit"
+
+Subir el codigo en el repositorio remoto
+    git push origin <rama>
+
+Cambiar o crear ramas
+    git checkout <rama>
+    git branch <rama>
+
+
