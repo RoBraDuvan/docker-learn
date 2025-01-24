@@ -1,0 +1,18 @@
+services:
+  web:
+    image: nginx
+    ports:
+      - 80:80
+    networks:
+      - red-web
+  
+  bd:
+    image: wordpress
+    ports:
+      - 81:80
+    networks:
+      - otra-red
+
+networks:
+  red-web:
+  otra-red:

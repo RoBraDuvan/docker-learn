@@ -14,3 +14,9 @@ Cambiar o crear ramas
     git branch <rama>
 
 
+Como podemos correr una imagen de Nginx configurando el  puerto de mi host 
+el numero 9000.
+
+Crear un volumen, y luego asignarlo a la ruta /x de un contenedor wordpress
+
+copiar un fichero dentro de un contenedor de Nginx.
