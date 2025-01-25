@@ -1,0 +1,8 @@
+ARG node_version=22.0
+FROM node:${node_version}
+WORKDIR /app
+COPY package.json .
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD [ "bash","npm run dev" ]
